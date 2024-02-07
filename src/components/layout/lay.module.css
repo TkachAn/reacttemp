@@ -1,0 +1,10 @@
+.wrapper{
+	min-height: 100svh;
+	display: flex;
+  flex-direction: column;
+}
+.main {
+  flex-grow: 1;
+	padding: 8.0rem 0 0 0;
+	height: 100%;
+}
