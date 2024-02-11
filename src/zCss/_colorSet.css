@@ -3,129 +3,133 @@
   --colH1: #c0d8e8;
   --colH2: #a0c4dc;
   --colH3: #90b8dc;
-	--colH5: #60a4dc;
+  --colH5: #60a4dc;
   --colH4: #80a4dc;
-	--colWrap: #4088b8;
+  --colWrap: #4088b8;
   --colWrap1: #0060a0;
   --colPDark: #007cc0;
   --colBg: rgba(0, 96, 160, 0.99);
   --colBg1: rgba(0, 152, 240, 0.39);
-	color: var(--colBg);
+  color: var(--colBg);
 
-	--col7: #ebfdd3;
-	--col8: #f4fed3;
-	--col2: #bbfcd5;
-	--col9: #4ae7d4;
-	--col3: #57e3d6;
-	--col4: #24c7be;
-	--col1: #16b8bc;
-	--col13: #14baab;
-	--col15: #16b8bc;
-	--col5: #2fcce3;
-	--col11: #2cc5e0;
-	--col6: #1a84c0;
-	--col10: #99c7cc;
-	--col14: #1674a1;
-	--col12: #176999;
-	/**/
-	--slate01:#f8fafc;
-	--slate02:#f1f5f9;
-	--slate03:#e2e8f0;
-	--slate04:#cbd5e1;
+  --col7: #ebfdd3;
+  --col8: #f4fed3;
+  --col2: #bbfcd5;
+  --col9: #4ae7d4;
+  --col3: #57e3d6;
+  --col4: #24c7be;
+  --col1: #16b8bc;
+  --col13: #14baab;
+  --col15: #16b8bc;
+  --col5: #2fcce3;
+  --col11: #2cc5e0;
+  --col6: #1a84c0;
+  --col10: #99c7cc;
+  --col14: #1674a1;
+  --col12: #176999;
+  /**/
+  --slate01: #f8fafc;
+  --slate02: #f1f5f9;
+  --slate03: #e2e8f0;
+  --slate04: #cbd5e1;
 
-	--slate05:#94a3b8;
-	--slate06:#64748b;
-	--slate07:#475569;
-	--slate08:#334155;
-	--slate09:#1e293b;
-	--slate10:#0f172a;
-	--slate11:#020617;
-	/**/
-	--slate051:#d3dae4;
-	--slate052:#c3cbd7;
-	--slate053:#b3bdd7;
-	--slate054:#a3aebe;
-	--slate055:#94a0b2;
-	--slate056:#8491a5;
-	--slate057:#748398;
-	/**/
-	--cyan01:#ecfeff;
-	--cyan02:#cffafe;
-	--cyan03:#a5f3fc;
-	--cyan04:#67e8f9;
-	--cyan05:#22d3ee;
-	--cyan06:#06b6d4;
-	--cyan07:#0891b2;
-	--cyan08:#0e7490;
-	--cyan09:#155e75;
-	--cyan10:#164e63;
-	--cyan11:#083344;
-	/**/
-	
-	/**/
-	--amber01:#fffbeb;
-	--amber02:#fef3c7;
-	--amber03:#fde68a;
-	--amber04:#fcd34d;
-	--amber05:#fbbf24;
-	--amber06:#f59e0b;
-	--amber07:#d97706;
-	--amber08:#b45309;
-	--amber09:#92400e;
-	--amber10:#78350f;
-	--amber11:#451a03;
-/**/
-	--red01:#fef2f2;
-	--red02:#fee2e2;
-	--red03:#fecaca;
-	--red04:#fca5a5;
-	--red05:#f87171;
-	--red06:#ef4444;
-	--red07:#dc2626;
-	--red08:#b91c1c;
-	--red09:#991b1b;
-	--red10:#7f1d1d;
-	--red11:#450a0a;
+  --slate05: #94a3b8;
+  --slate06: #64748b;
+  --slate07: #475569;
+  --slate08: #334155;
+  --slate09: #1e293b;
+  --slate10: #0f172a;
+  --slate11: #020617;
+  /**/
+  --slate051: #d3dae4;
+  --slate052: #c3cbd7;
+  --slate053: #b3bdd7;
+  --slate054: #a3aebe;
+  --slate055: #94a0b2;
+  --slate056: #8491a5;
+  --slate057: #748398;
+  /**/
+  --cyan01: #ecfeff;
+  --cyan02: #cffafe;
+  --cyan03: #a5f3fc;
+  --cyan04: #67e8f9;
+  --cyan05: #22d3ee;
+  --cyan06: #06b6d4;
+  --cyan07: #0891b2;
+  --cyan08: #0e7490;
+  --cyan09: #155e75;
+  --cyan10: #164e63;
+  --cyan11: #083344;
+  /**/
 
-		/**/
-		--pl:#e2e8f0;
-		--h1:#d3dae4;
-		--h2:#c3cbd7;
-		--h3:#b3bdd7;
-		--h4:#a3aebe;
-		--h5:#94a0b2;
-		--h6:#8491a5;
-		--pd:#748398;
-		/**/
-		/*header*/
-				/*bg*/
-				--headerBgColor:var(--cyan08);
-				--navbarFontColor:var(--cyan01);
-				--navbarActiveColor:var(--cyan04);
-				--logoFontColor:var(--cyan01);
-				--logoHoverColor:var(--cyan04);
+  /**/
+  --amber01: #fffbeb;
+  --amber02: #fef3c7;
+  --amber03: #fde68a;
+  --amber04: #fcd34d;
+  --amber05: #fbbf24;
+  --amber06: #f59e0b;
+  --amber07: #d97706;
+  --amber08: #b45309;
+  --amber09: #92400e;
+  --amber10: #78350f;
+  --amber11: #451a03;
+  /**/
+  --red01: #fef2f2;
+  --red02: #fee2e2;
+  --red03: #fecaca;
+  --red04: #fca5a5;
+  --red05: #f87171;
+  --red06: #ef4444;
+  --red07: #dc2626;
+  --red08: #b91c1c;
+  --red09: #991b1b;
+  --red10: #7f1d1d;
+  --red11: #450a0a;
+
+  /**/
+  --pl: #e2e8f0;
+  --h1: #d3dae4;
+  --h2: #c3cbd7;
+  --h3: #b3bdd7;
+  --h4: #a3aebe;
+  --h5: #94a0b2;
+  --h6: #8491a5;
+  --pd: #748398;
+  /**/
+  /*header*/
+  --headerBgColor: var(--cyan08);
+  --navbarFontColor: var(--cyan01);
+  --navbarActiveColor: var(--cyan04);
+  --logoFontColor: var(--cyan01);
+  --burgerBgColor: var(--slate051);
+  --burgerHoverColor: var(--cyan08);
+  /*footer*/
+  --footerBgColor: var(--cyan08);
+  --footerFontColor: var(--cyan01);
+  --footerActiveColor: var(--cyan04);
 }
 
-p{
-	color: var(--pd);
+p {
+  color: var(--pd);
 }
-h1{
-	color: var(--h1);
+h1 {
+  color: var(--h1);
 }
-h2{
-	color: var(--h2);
+h2 {
+  color: var(--h2);
 }
-h3{
-	color: var(--h3);
+h3 {
+  color: var(--h3);
 }
-h4{
-	color: var(--h4);
+h4 {
+  color: var(--h4);
 }
-h5{
-	color: var(--h5);
+h5 {
+  color: var(--h5);
 }
-h6{
-	color: var(--h6);
+h6 {
+  color: var(--h6);
 }
 /* @property --colWrap {
   inherits: false;

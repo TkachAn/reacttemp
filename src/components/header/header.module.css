@@ -4,9 +4,7 @@
   width: 100%;
   text-align: center;
   background-color: var(--headerBgColor);
-  height: 4rem;
-  position: fixed;
-  
+  height: 4rem;  
 }
 .box {
   position: relative;

@@ -14,8 +14,10 @@ body{
 	/*devices*/
 	--mobile:var(--scr320);
 	--tablet: var(--scr480);
-	--desktop:var(--scr1080);
+	--desktop:var(--scr1440);
 
 	/*fonts-family*/
 	--title: "Tomorrow", sans-serif;
+	--container: var(--desktop);
+	--gap: 1rem;
 }

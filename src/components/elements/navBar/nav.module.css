@@ -5,6 +5,7 @@
   text-decoration: none;
 }
 .navLink {
+	font-size: 0.8rem;
   color: var(--navbarFontColor);
   font-weight: 500;
   font-family: var(--title);

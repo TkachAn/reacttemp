@@ -8,10 +8,6 @@
 	font-size: 1.2rem;
 	color: var(--logoFontColor);
 }
-.flex>h2{
-	color: var(--logoHoverColor);
-	/* font-size: 1.2rem; */
-}
 
 .in{
 	display: block;

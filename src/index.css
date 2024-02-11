@@ -4,7 +4,7 @@
 @import url(./zCss/_colorSet.css);
 
 .container{
-	max-width: var(--desktop);
+	max-width: var(--container);
 	margin: 0 auto;
 	/* padding: 0 15px; */
 }

@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 2rem 2rem 3.5rem;
+  width: 100%;
+  height: 100%;
+  background-color: var(--footerBgColor);
+  color: var(--footerFontColor);
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  justify-content: center;
+}
+.box {
+  width: 100%;
+  max-width: calc(calc(var(--container) / 3) - calc(var(--gap) * 2));
+}
+.text {
+  color: var(--footerFontColor);
+}
