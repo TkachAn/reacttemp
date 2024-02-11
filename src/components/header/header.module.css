@@ -3,10 +3,10 @@
   top: 1rem;
   width: 100%;
   text-align: center;
-  background-color: var(--headerBg);
+  background-color: var(--headerBgColor);
   height: 4rem;
   position: fixed;
-  /* border: 0.5rem solid var(--cyan06); */
+  
 }
 .box {
   position: relative;
@@ -16,7 +16,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--headerBg);
+  background-color: var(--headerBgColor);
   z-index: 1;
 }
 .logo {

@@ -99,8 +99,11 @@
 		/**/
 		/*header*/
 				/*bg*/
-				--headerBg:var(--cyan08);
-
+				--headerBgColor:var(--cyan08);
+				--navbarFontColor:var(--cyan01);
+				--navbarActiveColor:var(--cyan04);
+				--logoFontColor:var(--cyan01);
+				--logoHoverColor:var(--cyan04);
 }
 
 p{

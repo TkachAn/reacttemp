@@ -5,16 +5,16 @@
   text-decoration: none;
 }
 .navLink {
-  color: var(--h1);
+  color: var(--navbarFontColor);
   font-weight: 500;
   font-family: var(--title);
   text-transform: uppercase;
 }
 .navLink:hover {
-  color: var(--amber04);
+  color: var(--navbarActiveColor);
 }
 .active {
-  color: var(--amber05);
+  color: var(--navbarActiveColor);
 }
 .ul li {
   position: relative;
@@ -27,5 +27,5 @@
   width: 100%;
   min-width: min-content;
   min-height: 0.2rem;
-  background-color: var(--amber05);
+  background-color: var(--navbarActiveColor);
 }

@@ -6,12 +6,16 @@
 }
 .flex h2{
 	font-size: 1.2rem;
-	color: white;
+	color: var(--logoFontColor);
+}
+.flex>h2{
+	color: var(--logoHoverColor);
+	/* font-size: 1.2rem; */
 }
 
 .in{
 	display: block;
-border: 0.2rem solid white;
+border: 0.2rem solid  var(--logoFontColor);
 border-radius: 50%;
 width: 60px;
 height: 60px;
