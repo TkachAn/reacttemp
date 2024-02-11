@@ -1,0 +1,47 @@
+.mobileNav {
+  position: relative;
+}
+.close {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0 0;
+  position: absolute;
+  top: -120vh;
+  right: -100vw;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: white;
+  transform: scale(0.1);
+  transition: top 1.5s, right 1.5s, transform 0.5s;
+  z-index: -1;
+}
+.open {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  position: absolute;
+  top: 2.6rem;
+  right: -2rem;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #eee;
+  transition: top 0.4s, right 0.4s, transform 0.8s;
+  z-index: -1;
+}
+.navLink {
+  display: inline-block;
+  min-width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+  font-size: 3rem;
+  font-family: var(--title);
+  font-weight: 500;
+}
+.item {
+  transition: color 0.5s, background-color 0.3s;
+}
+.item:hover,
+.item:focus {
+  background-color: cadetblue;
+  color: white;
+}

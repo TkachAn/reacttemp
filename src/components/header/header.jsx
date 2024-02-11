@@ -1,29 +1,32 @@
-import React, {useState} from "react";
-import { NavLink } from "react-router-dom";
-import {AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
-import s from "./s.module.css";
+import React from "react";
+// import { NavLink } from "react-router-dom";
+// import {FcAbout, FcHome, FcContacts} from 'react-icons/fc';
+
+import s from "./header.module.css";
+import {NavBar} from "../elements/navBar/navBar";
+import {Burger} from "../elements/burger/burger";
+import { Logo } from "../elements/logo/logo_v2";
+
+const links = [
+  {link: "/", title: "home", icon: ""},
+  {link: "/about", title: "about us", icon: ""},
+  {link: "/contacts", title: "contacts", icon: ""},
+	
+	{link: "/download", title: "download", icon: ""},
+];
 
 export const Header = () => {
-	const [nav, setNav] = useState(false);
   return (
     <div className={s.wrapper}>
       <div className="container">
         <div className={s.box}>
-          <div>Logo</div>
-          <nav  className={nav ? [s.menu, s.active].join(" ") : [s.menu]}>
-            <NavLink to='/'>
-							Home
-						</NavLink>
-						<NavLink to='/about'>
-							About Us
-						</NavLink>
-						<NavLink to='/contacts'>
-							Contacts
-						</NavLink>
+          <Logo className={s.logo_v2}/>
+          <nav className={s.bar}>
+            <NavBar links={links} />
           </nav>
-					<div onClick={() => setNav(!nav)} className={s.mobile}>
-            {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
-          </div>
+          <nav className={s.burger}>
+            <Burger links={links} />
+          </nav>
         </div>
       </div>
     </div>

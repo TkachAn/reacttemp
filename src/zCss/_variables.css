@@ -1,0 +1,21 @@
+body{
+	/*screens*/
+	--scr320: 320px;
+	--scr360: 360px;
+	--scr480: 480px;
+	--scr640: 640px;
+	--scr800: 800px;
+	--scr960: 960px;
+	--scr1080: 1080px;
+	--scr1280: 1280px;
+	--scr1440: 1440px;
+	--scr1600:1600px;
+	--scr1920:1920px;
+	/*devices*/
+	--mobile:var(--scr320);
+	--tablet: var(--scr480);
+	--desktop:var(--scr1080);
+
+	/*fonts-family*/
+	--title: "Tomorrow", sans-serif;
+}

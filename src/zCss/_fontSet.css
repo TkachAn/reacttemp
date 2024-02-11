@@ -1,0 +1,31 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Oxygen:wght@300;400;700&family=Roboto:wght@200;300;400;500;700;900&family=Tomorrow:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+html {
+	font-size: calc((36px + (44 - 36) * (100vw - 1080px) / (2800 - 1080)) / 1.8);
+}
+
+/*screen 320px{18px = 1rem}*/
+body {
+	/*eng*/
+  /* font-family: "Cantarell", sans-serif; */
+  /* font-family: "Oxygen", sans-serif; */
+	/*ru*/
+  font-family: "Roboto", sans-serif;
+	font-weight: 300;
+  /* font-family: "Ubuntu", sans-serif; */
+  /* font-family: "Tomorrow", sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Tomorrow", sans-serif;
+	font-weight: 700;
+}
+
+

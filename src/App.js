@@ -7,7 +7,8 @@ import { NotFoundPage } from './pages/notFoundPage';
 
 function App() {
 	return (
-		<BrowserRouter basename='reacttemp'>
+		// <BrowserRouter basename='/reacttemp'>
+		<BrowserRouter basename='/'>
 			<Routes>
 				<Route path="/" element={<LayOut />}>
 					<Route index element={<HomePage />} />

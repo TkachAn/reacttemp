@@ -1,0 +1,31 @@
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-decoration: none;
+}
+.navLink {
+  color: var(--h1);
+  font-weight: 500;
+  font-family: var(--title);
+  text-transform: uppercase;
+}
+.navLink:hover {
+  color: var(--amber04);
+}
+.active {
+  color: var(--amber05);
+}
+.ul li {
+  position: relative;
+}
+.active::before {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  content: "";
+  width: 100%;
+  min-width: min-content;
+  min-height: 0.2rem;
+  background-color: var(--amber05);
+}
