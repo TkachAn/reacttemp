@@ -13,7 +13,6 @@ export const NavBar = ({ links }) => {
   const location = useLocation().pathname;
   const [playOn] = useSound(tab,{volume: 1.85});
   const [onMouseOver] = useSound(swipe,{volume: 0.25});
-   // const [onMouseOver] = useSound(swipe);
    
   return (
     <>
