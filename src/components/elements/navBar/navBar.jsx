@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import useSound from "use-sound";
-import tab from '../../../sound/tap-kick.mp3';
-import swipe from '../../../sound/swipe_1.mp3'
+import tab from '../../../assets/sound/tap-kick.mp3';
+import swipe from '../../../assets/sound/swipe_1.mp3'
 import s from "./nav.module.css";
 
 const audio = new Audio();
@@ -11,8 +11,8 @@ audio.src = '../../../sound/tap_1.mp3'
 export const NavBar = ({ links }) => {
   console.log("useLocation: ", useLocation());
   const location = useLocation().pathname;
-  const [playOn] = useSound(tab);
-  const [onMouseOver] = useSound(swipe);
+  const [playOn] = useSound(tab,{volume: 1.85});
+  const [onMouseOver] = useSound(swipe,{volume: 0.25});
    // const [onMouseOver] = useSound(swipe);
    
   return (
