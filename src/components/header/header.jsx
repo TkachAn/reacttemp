@@ -1,7 +1,4 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
-// import {FcAbout, FcHome, FcContacts} from 'react-icons/fc';
-
 import s from "./header.module.css";
 import {NavBar} from "../elements/navBar/navBar";
 import {Burger} from "../elements/burger/burger";
@@ -11,7 +8,6 @@ const links = [
   {link: "/", title: "home", icon: ""},
   {link: "/about", title: "about us", icon: ""},
   {link: "/contacts", title: "contacts", icon: ""},
-	
 	{link: "/download", title: "download", icon: ""},
 ];
 
