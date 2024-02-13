@@ -1,7 +1,9 @@
 import React from "react";
 import s from "./header.module.css";
 import {NavBar} from "../elements/navBar/navBar";
-import {Burger} from "../elements/burger/burger";
+import {Burger} from "../elements/burger/ui_burger";
+// import { Burger } from "../elements/ui_popover/popover";
+// import { Burger } from "../elements/ui_dropdown/dropdown";
 import { Logo } from "../elements/logo/logo_v2";
 
 const links = [

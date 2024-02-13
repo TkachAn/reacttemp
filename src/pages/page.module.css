@@ -4,3 +4,36 @@
 .content{
 	padding: 0 2rem;
 }
+.bg{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.1);
+}
+.popup{
+background-color: cadetblue;
+padding: 1rem;
+}
+.images{
+display: inline-block;
+float: left;
+width: 170px;
+padding-right: 20px;
+}
+.imagesl{
+	display: inline-block;
+	float: right;
+	width: 270px;
+	padding-left: 20px;
+	}
+	.imagesm{
+		display: inline-block;
+		float: left;
+		width: 370px;
+		padding-right: 20px;
+		}

@@ -1,0 +1,66 @@
+.mobileNav {
+    position: relative;
+  }
+
+.panel{
+/* "absolute z-10" */
+/* position: absolute; */
+/* top: 0; */
+/* left: -15rem; */
+/* width: 100svw; */
+/* z-index: 10; */
+/* background-color: cadetblue; */
+}
+
+.grid{
+    /* color: azure; */
+    /*"grid grid-cols-2"*/
+    /* height: 100vh; */
+    /* display: grid; */
+    /* grid-template-rows: repeat(2, 1fr); */
+
+}
+.close,
+.open {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  position: absolute;
+  width: 100vw;
+  min-height: 90svh;
+  z-index: -1;
+}
+.close {
+  top: 2.9rem;
+  right: -120vw;
+  background-color: var(--burgerBgColor);
+  transform: scale(1);
+  transition: top 0.5s, right 0.5s;
+  z-index: -1;
+}
+.open {
+  top: 2.9rem;
+  right: -2rem;
+  overflow: scroll;
+  background-color: var(--burgerBgColor);
+  transition: top 0.4s, right 0.4s;
+}
+.navLink {
+  display: inline-block;
+  min-width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+  font-size: 1rem;
+  font-family: var(--title);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.item {
+  transition: color 0.5s, background-color 0.3s;
+}
+.item:hover,
+.item:focus {
+  background-color: var(--burgerHoverColor);
+  color: var(--burgerBgColor);
+}

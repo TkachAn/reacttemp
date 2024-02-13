@@ -9,7 +9,7 @@
 	color: var(--logoFontColor);
 }
 
-.in{
+.circle{
 	display: block;
 border: 0.2rem solid  var(--logoFontColor);
 border-radius: 50%;

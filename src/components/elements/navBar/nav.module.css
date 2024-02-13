@@ -5,7 +5,7 @@
   text-decoration: none;
 }
 .navLink {
-	font-size: 0.8rem;
+  font-size: 0.8rem;
   color: var(--navbarFontColor);
   font-weight: 500;
   font-family: var(--title);
@@ -22,11 +22,21 @@
 }
 .active::before {
   position: absolute;
-  top: 30px;
+  top: 25px;
   right: 0;
   content: "";
   width: 100%;
   min-width: min-content;
-  min-height: 0.2rem;
+  min-height: 0.1rem;
+  background-color: var(--navbarActiveColor);
+}
+.active::after {
+  position: absolute;
+  bottom: 25px;
+  right: 0;
+  content: "";
+  width: 100%;
+  min-width: min-content;
+  min-height: 0.1rem;
   background-color: var(--navbarActiveColor);
 }
