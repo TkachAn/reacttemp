@@ -1,10 +1,12 @@
 .wrapper {
   position: fixed;
-  top: 1rem;
+  top: 0.5rem;
   width: 100%;
   text-align: center;
   background-color: var(--headerBgColor);
   height: 40px;  
+  box-sizing: content-box;
+  border: 0.5rem solid white;
 }
 .box {
   position: relative;
